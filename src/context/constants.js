@@ -1,0 +1,18 @@
+export const AppActions = {
+    CHANGE_INPUT_TEXT   : 'CHANGE_INPUT_TEXT',
+    CLEAR_INPUT_TEXT    : 'CLEAR_INPUT_TEXT',
+    ADD_TASK            : 'ADD_TASK',
+    ASSIGN_TODO_LIST    : 'ASSIGN_TODO_LIST',
+    CHANGE_FILTER_VALUE : 'CHANGE_FILTER_VALUE',
+    CLEAR_TODO_LIST     : 'CLEAR_TODO_LIST',
+    CHANGE_THEME        : 'CHANGE_THEME',
+    MARK_TASK_DONE      : 'MARK_TASK_DONE',
+    DELETE_TASK         : 'DELETE_TASK',
+    EDIT_TASK_DONE      : 'EDIT_TASK_DONE',
+};
+
+export const FilterValues = {
+    ALL : 'ALL',
+    COMPLETED : 'COMPLETED',
+    REMAINING : 'REMAINING'
+};
